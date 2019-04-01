@@ -24,7 +24,6 @@ $(function () {
             nameArray.push(name);
             localStorage.setItem('name', JSON.stringify(nameArray));
             welcome(name);
-            // console.table(nameArray);
         }
         else {
             localStorage.setItem('name', JSON.stringify(nameArray));
@@ -52,7 +51,6 @@ $(function () {
     typeWriter(setType);
 
 
-
     function typeWriter(type) {
         let delaySpeed = 300;
         let fadeSpeed = 50;
@@ -77,8 +75,6 @@ $(function () {
         greeting.fadeOut(35000);
 
     }; // typeWriter
-
-
 
 }); // ready
 
