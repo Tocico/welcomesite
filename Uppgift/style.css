@@ -1,0 +1,50 @@
+body {
+    background-image: url(./img/smoothie.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+* {
+    font-family: 'Sree Krushnadevaraya', serif;
+    color: white;
+}
+
+.container {
+    margin: 15% 10%;
+}
+
+#warning {
+    font-size: 3em;
+    letter-spacing: 0.2em;
+}
+
+h2, #greeting, h1 {
+    font-size: 3em;
+    letter-spacing: 0.2em;
+    visibility: hidden;
+}
+
+#greeting {
+    text-align: center;
+    margin-top: 20%;
+}
+
+.typewriter-load {
+    display: none;
+}
+
+input[type=submit] {
+    display: none;
+}
+
+input[type=text] {
+    display: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 3px solid white;
+    width: 600px;
+    letter-spacing: 0.15em;
+    font-size: 2em;
+}
