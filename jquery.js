@@ -50,7 +50,6 @@ $(function () {
     $('input[type=text]').fadeIn(5000);
     typeWriter(setType);
 
-
     function typeWriter(type) {
         let delaySpeed = 300;
         let fadeSpeed = 50;
